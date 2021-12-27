@@ -1,0 +1,25 @@
+.container{
+    
+    background-color:#E0E8FF;
+    height: 100%;
+}
+h1{
+    font-size: 27px;
+}
+#card{
+    width: 336px;
+}
+#hero{
+    width: 336px;
+}
+
+h2{
+    font-size: 14px;
+}
+#plan a{
+    margin-left: 40px;
+    font-size: 12px;
+}
+#music{
+    margin-left: 10px;
+}

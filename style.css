@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    padding: 0px;
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:#E0E8FF;
+
+}
+#bg{
+    position:absolute;
+    width: 100%;
+}
+#card{
+    margin: 60px 0px 50px 0px;
+    background-color: white;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    z-index: 2;
+    width: 420px;
+    height: 87%;
+    box-shadow: 1px 3px 10px rgb(191, 206, 255);
+}
+#hero{
+    border-radius: 17px 17px 0px 0px;
+    width: 420px;
+}
+
+#des{
+    padding-left: 31px;
+    padding-right: 31px;
+}
+p{
+    text-align: center;
+color: rgb(136, 137, 173);
+font-size: 14px;
+}
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 30px 0px 10px 0px;
+}
+
+#plan{
+    display: flex;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(245, 248, 255);
+    width: 80%;
+    border-radius: 12px;
+    height: 90px;
+    align-items: center;
+    margin-top: 20px;
+}
+#plan a{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-left: 60px ;
+    color: blue;
+}
+
+#plan a:hover{
+    text-decoration: none;
+    color: rgb(126, 91, 255);
+}
+#music{
+    height: 48px;
+    width: 48px;
+    margin-left: 20px;
+}
+h2{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+#text{
+    margin-left: 20px;
+}
+
+#btn{
+    width: 80%;
+    height: 48px;
+    background-color: rgb(57, 57, 255);
+    color: white;
+    border-radius: 10px;
+    border:rgb(57, 57, 255);
+    margin-top: 30px;
+    cursor: pointer;
+   font-size: 15px;
+}
+
+#btn:hover{
+    background-color: rgb(126, 91, 255);
+}
+
+#cancel{
+    color: rgb(136, 137, 173);
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+#cancel:hover{
+    color: black;
+}
